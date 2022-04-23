@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.nav_bar{
+    /* background-color: cadetblue; */
+    height: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid black;
+}
+img{
+    height: 150px;
+}
+h1{
+    font-family: Merriweather Sans;
+}
+h2{
+    font-family: Merriweather Sans;
+    padding-top: 20px;
+}
+.safety{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.para{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Barlow Condensed;
+}
+.title{
+    font-family: Merriweather Sans;
+    padding-top: 20px;
+    color: rgb(85, 76, 76);
+}
+.over{
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
